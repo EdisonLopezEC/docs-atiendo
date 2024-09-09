@@ -14,6 +14,10 @@ Este módulo le permite gestionar todas las actividades relacionadas con las com
 **Información acerca de las ventas.**
 El módulo de ventas le proporciona las herramientas necesarias para gestionar sus ventas de manera eficiente. Puede registrar ventas nuevas, generar facturas y consultar el historial de ventas.
 
+### Estado Facturas
+**Información acerca del estado de la aprobación de las ventas**
+El módulo de Estado Facturas permite supervisar y gestionar el proceso de aprobación de las facturas generadas dentro del sistema. Podrá revisar el estado de aprobación de las facturas, enviar las facturas por correo y volver a enviarlas para una autorización si hubo problemas externos con el SRI.
+
 ### Cuadre de Caja
 **Información acerca de las cuentas.**
 Este módulo está diseñado para ayudarle a cuadrar la caja, registrando todas las transacciones financieras y asegurando que los registros coincidan con el efectivo disponible.
@@ -49,6 +53,10 @@ Este módulo está dedicado a la gestión de proveedores. Puede registrar nuevos
 ### Personal
 **Información acerca de el personal.**
 En el módulo de personal, puede gestionar la información de sus empleados. Esto incluye registrar nuevos empleados, actualizar información personal y roles dentro del sistema.
+
+### Descuentos
+**Aplicar descuentos a sus ventas.**
+El módulo de Descuentos le permite gestionar y aplicar descuentos a sus ventas de manera flexible. Puede establecer descuentos porcentuales o fijos en el total de la venta, ajustando así los precios para promociones especiales o negociaciones con clientes.
 
 Esperamos que este manual le sea de gran ayuda para comprender y utilizar todas las funcionalidades de su sistema de facturación de manera efectiva.
 

@@ -1,7 +1,16 @@
 {
  
-    "emailcontroller": "Email Controller",
-    "emailservice": "Email Service",
-    "ticketscontroller": "Tickets Controller",
-    "index": "Web Config"
+    
+    "almacenes": "Almacenes",
+    "compras": "Compras",
+    "cuadredcaja": "Cuadre de Caja",
+    "inventarios": "Inventarios",
+    "descuentos": "Descuentos",
+    "estadofactura": "Estado de las Facturas",
+    "movimientos": "Movimientos",
+    "pedidosusuarios": "Pedidos Sugeridos",
+    "productos": "Productos",
+    "proveedores": "Proveedores",
+    "terceros": "Terceros",
+    "ventas": "Ventas"
 }

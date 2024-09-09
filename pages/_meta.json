@@ -1,5 +1,6 @@
 {
     "index": "Introducción",
+    "configuracion": "Configuración Inicial",
     "about": {
         "type": "page",
         "title": "Acerca de",
@@ -8,9 +9,7 @@
         }
         
     },
-    "inicio": "Objetivos",
-    "venta": "Como realizar una venta",
-    "back": "Rol Cliente",
-    "caja": "Como hacer  el cuadre de caja",
-    "interfaz": "Interfaz de Usuario"
+ 
+    "back": "Modulos",
+    "inicio": "Procesos frecuentes"
 }

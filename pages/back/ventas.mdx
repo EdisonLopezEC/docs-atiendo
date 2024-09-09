@@ -1,0 +1,98 @@
+import { Callout } from 'nextra/components'
+import React from 'react'
+import Image from 'next/image'
+
+# **VENTAS**
+
+Este módulo le ofrece la posibilidad de gestionar las ventas de productos. Puede agregar nuevas ventas, actualizar información y consultar el estado de cada una.
+
+
+<Callout type="info" >
+    Al realizar una venta se consigue registrar en el inventario, en los movimientos y en mas modulos que se veran afectados por la venta. Posterior a esto se podra visualizar en el modulo de ventas.
+</Callout>
+
+## Existen dos opciones para realizar una venta:
+
+
+### 1. Crear una venta con una factura electronica
+
+Para crear una venta con factura electronica se debe seguir los siguientes pasos:
+
+
+1. **Seleccionar el almacen en el que se realizará la venta**: Seleccionar el almacen en el que se realizará la venta.
+
+
+2. **Selecciona el boton de nuevo**: Seleccionar el boton de nuevo para crear una nueva venta. El boton se encuentra en la parte superior derecha de la pantalla, es un boton verde con el texto "NUEVO".
+
+<div
+    style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}
+>
+![Agregar Producto](../../assets/images/botonnuevocompra.png)
+
+</div>
+
+3. **Seleccionar el cliente de la venta**: 
+
+Se puede generar una factura electronica con los datos de un cliente registrado o como consumidor final.
+
+
+![Cliente](../../assets/images/opcionesdefactura.png)
+
+
+##### Consumidor Final: 
+
+Todos los datos serán generados automáticamente.
+
+![Consumidor Final](../../assets/images/consumidorventa.png)
+
+
+##### Factura con Cliente:
+
+Se mostrará un formulario para ingresar los datos del cliente.
+
+![Cliente](../../assets/images/electronicadatoscliente.png)
+
+
+Si el cliente ya fue registrado en cualquiera de sus almacenes, se puede buscar el cliente ingresando su identificación y presionando el botón de `Buscar` (icono de lupa). Los datos se cargarán automáticamente.
+
+En caso de que el cliente no este registrado, se deberá ingresar los datos manualmente.
+
+
+4. **Adición de Productos a la Factura**
+
+Después de seleccionar el tipo de cliente, puedes añadir productos a la factura. Para cada producto, ingresa la cantidad que deseas añadir a la compra y presiona enter o el boton de añadir 
+`Añadir` para agregar el producto a la lista de productos de la factura.
+
+![Agregar Producto](../../assets/images/agregarProductoEnter.png)
+
+
+<Callout type="info" >
+Para optimizar tiempos en agregar al carrito, una vez insertada la cantidad a vender se recomienda presionar la tecla `Enter` para que el producto se añada a la lista de productos de la factura.
+</Callout>
+
+
+5. **Finalizar la Venta**
+Después de agregar todos los productos, se mostrará un resumen de la venta. En esta pantalla, podrás ver los productos añadidos, el total de la venta y los datos del cliente. También tendrás la opción de aplicar descuentos, ya sea por porcentaje o por monto, simplemente ingresando el código de descuento.
+
+![PostVenta](../../assets/images/posventa.png)
+
+
+***Agregar Descuento (Opcional)***
+
+Para aplicar un descuento, selecciona el botón el recuadro de descuento, en la pantalla se desplegará un formulario para ingresar el código de descuento.
+
+![Descuento](../../assets/images/aplicardescuento.png)
+
+### 2. Crear una venta con una factura manual
+**Crear una venta con factura manual**
+
+6. **Agregar los medios de pago**
+
+Seleccionar los medios de pago con los que se realizará la venta. Se puede seleccionar varios medios de pago y se debe ingresar el monto de cada medio de pago hasta completar el total de la venta.
+
+
+![Medios de Pago](../../assets/images/pagosagregados.png)
+
+Termine la venta y podra visualizar la factura electronica puede generar el pdf o enviarla por correo.
+
+![Factura](../../assets/images/facturafinal.png)
