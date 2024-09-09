@@ -3,6 +3,7 @@ import { useRouter } from "next/router"
 import {useTheme } from "next-themes"
 import { useEffect, useState } from "react";
 
+
 const ThemeName = () => {
   const [themeName, setThemeName] = useState('');
 
@@ -20,9 +21,13 @@ const ThemeName = () => {
   }, [currentThemeName]);
 
   return (
-    <h1 className="text-2xl font-bold text-gray-800 dark:text-gray-200">
-      ATIENDO
-      </h1>
+    <Image 
+        src="/logoatiendo.png" // Ruta de la imagen
+        alt="Logo"
+        width={50} // Ancho de la imagen
+        height={50} // Alto de la imagen
+        className="mr-2" // Clase para margenes o estilos adicionales
+      />
   );
 };
 
@@ -42,7 +47,7 @@ export default {
     const { asPath } = useRouter()  
     if (asPath !== '/') {
       return {
-        titleTemplate: '%s – Help Desk'
+        titleTemplate: '%s – Atiendo'
       }
     }
   },
