@@ -1,7 +1,7 @@
 {
-  "name": "helpdesk-eeasa-docs",
+  "name": "atiendo-docs",
   "version": "0.0.1",
-  "description": "Docs for Helpdesk EEASA",
+  "description": "Docs for Atiendo PLASTICAUCHO",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
