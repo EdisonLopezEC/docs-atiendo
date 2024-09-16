@@ -4,77 +4,57 @@ import Image from 'next/image'
 
 # **COMPRAS**
 
-
 Este módulo le ofrece la posibilidad de gestionar las compras de productos. Puede agregar nuevas compras, actualizar información y consultar el estado de cada una.
 
-
-<Callout type="info" >
-  Al realizar una compra se consigue registrar en el inventario los productos comprados y se podra visualizar en el modulo de inventario. Posterior a esto se podra realizar ventas de los productos comprados.
+<Callout type="info">
+  Al realizar una compra, se registran en el inventario los productos comprados y se podrán visualizar en el módulo de inventario. Posteriormente, se podrán realizar ventas de los productos comprados.
 </Callout>
 
 ## Existen dos opciones para crear una compra:
 
-
 ### 1. Crear una nueva compra
-**Crear una compra***
-Para crear una compra se debe seguir los siguientes pasos:
+**Crear una compra**
 
-1. **Seleccionar el almacen en el que se realizará la compra**: Seleccionar el almacen en el que se realizará la compra.
+Para crear una compra se deben seguir los siguientes pasos:
 
-2. **Selecciona el boton de nuevo**: Seleccionar el boton de nuevo para crear una nueva compra. El boton se encuentra en la parte superior derecha de la pantalla, es un boton verde con el texto "NUEVO".
+1. **Seleccionar el almacén en el que se realizará la compra**: Seleccionar el almacén en el que se realizará la compra.
 
+2. **Seleccionar el botón de nuevo**: Seleccionar el botón de nuevo para crear una nueva compra. El botón se encuentra en la parte superior derecha de la pantalla, es un botón verde con el texto "NUEVO".
 
 <div
     style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 >
 ![Agregar Producto](../../assets/images/botonnuevocompra.png)
-
 </div>
 
 3. **Seleccionar el proveedor de los productos**: Seleccionar el proveedor de los productos que se desean comprar.
 
-
-
-
-
-
-
-4. **Seleccionar los demas datos de la compra**: Seleccionar los demas datos de la compra:
+4. **Seleccionar los demás datos de la compra**: Seleccionar los demás datos de la compra:
     
         - **Comprobante**: Seleccionar el comprobante de la compra.
-
         - **Sustento**: Seleccionar el sustento de la compra.
+        - **Número de comprobante**: Ingresar el número de comprobante de la compra.
+        - **Autorización de la compra**: Ingresar la autorización de la compra. 10 dígitos si es impresa y 49 dígitos si es electrónica.
 
-        - **Numero de comprobante**: Ingresar el numero de comprobante de la compra.
+![Info compra](../../assets/images/infocompra.png)
 
-        - **Autorizacion de la compra**: Ingresar la autorizacion de la compra. 10 digitos si es impreso y 49 digitos si es electronico.
-
-
-![Indo compra](../../assets/images/infocompra.png)
-
-
-
-3. **Agregar productos a la compra**: Agregar los productos que se desean comprar a la lista de productos de la compra.
+5. **Agregar productos a la compra**: Agregar los productos que se desean comprar a la lista de productos de la compra.
 
 <div
     style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 >
 ![Agregar Producto](../../assets/images/botonanadir.png)
-
 </div>
-
 
 <div
     style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 >
-![Agregar Producto](../../assets/images//agregaralcarro.png)
-
+![Agregar Producto](../../assets/images/agregaralcarro.png)
 </div>
 
-<Callout type="info" >
-Para agregar un producto a la compra se debe ingresar el costo de compro y la cantidad. Presione ENTER o TERMINAR COMPRA para guardar el producto en la compra.
+<Callout type="info">
+  Para agregar un producto a la compra, se debe ingresar el costo de compra y la cantidad. Presione ENTER o TERMINAR COMPRA para guardar el producto en la compra.
 </Callout>
-
 
 ### 2. Subir XML para crear una compra masiva
 **Subir XML para crear una compra masiva**
@@ -82,49 +62,34 @@ Para agregar un producto a la compra se debe ingresar el costo de compro y la ca
 <div
     style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 >
-![Agregar Producto](../../assets/images/xmlbotoncompra.png)
-
+![Subir XML](../../assets/images/xmlbotoncompra.png)
 </div>
 
+Para subir un XML y crear una compra masiva se deben seguir los siguientes pasos:
 
-Para subir un XML y crear una compra masiva se debe seguir los siguientes pasos:
-
-1. **Seleccionar el boton de subir XML**: Seleccionar el boton de subir XML para subir el archivo XML de la compra masiva.
-
-2. **Seleccionar el archivo XML**: Seleccionar el archivo XML de la compra masiva que se desea subir.
-
-3. **Esperar a que se carguen los productos**: Esperar a que se carguen los productos del XML y luego seleccionar el boton de guardar para guardar la compra masiva.
-
-
-4. **Revisar los detalles de la compra**: Revisar los detalles de la compra y seleccionar el boton de guardar para guardar la compra.
+1. **Seleccionar el botón de subir XML**: Seleccionar el botón de subir XML para cargar el archivo XML de la compra masiva.
+2. **Seleccionar el archivo XML**: Seleccionar el archivo XML de la compra masiva que se desea cargar.
+3. **Esperar a que se carguen los productos**: Esperar a que se carguen los productos del XML y luego seleccionar el botón de guardar para guardar la compra masiva.
+4. **Revisar los detalles de la compra**: Revisar los detalles de la compra y seleccionar el botón de guardar para guardar la compra.
 
 <Callout type="warning" emoji="⚠️">
-El XML debe ser proporcionado por el proveedor de los productos y debe cumplir con que sea un XML valido ademas de ser facturado con el RUC de su empresa.
+El XML debe ser proporcionado por el proveedor de los productos y debe cumplir con los requisitos de ser un XML válido, además de ser facturado con el RUC de su empresa.
 </Callout>
 
+## Verificar la información de la compra
 
+Las dos opciones de compra permiten verificar la información de la compra antes de guardarla. Se puede verificar los productos, el total de la compra y los datos de la compra.
 
-## Verificar la informacion de la compra
-
-Las dos opciones de compra permiten verificar la informacion de la compra antes de guardarla. Se puede verificar los productos, el total de la compra y los datos de la compra.
-
-
-![Indo compra](../../assets/images/continuarCompra.png)
-
-
+![Info compra](../../assets/images/continuarCompra.png)
 
 Al confirmar la compra, se guardará la compra y se podrá visualizar un detalle de la misma. Se podrá ver los productos comprados, el total de la compra y los datos de la compra.
 
+![Detalles de la compra](../../assets/images/detallesposcompra.png)
 
-
-![Indo compra](../../assets/images/detallesposcompra.png)
-
-
-Finalmente, se finalizara la compra y se podra visualizar la compra en la lista de compras realizadas.
+Finalmente, se finalizará la compra y se podrá visualizar la compra en la lista de compras realizadas.
 
 ![Compra finalizada](../../assets/images/comprafinalizadadetalle.png)
 
-
-<Callout type="info" >
-  Al realizar una compra se consigue registrar en el inventario los productos comprados y se podra visualizar en el modulo de inventario. Posterior a esto se podra realizar ventas de los productos comprados.
+<Callout type="info">
+  Al realizar una compra, se registran en el inventario los productos comprados y se podrán visualizar en el módulo de inventario. Posteriormente, se podrán realizar ventas de los productos comprados.
 </Callout>

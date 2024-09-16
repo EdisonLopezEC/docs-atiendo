@@ -14,9 +14,9 @@ Este módulo le permite gestionar todas las actividades relacionadas con las com
 **Información acerca de las ventas.**
 El módulo de ventas le proporciona las herramientas necesarias para gestionar sus ventas de manera eficiente. Puede registrar ventas nuevas, generar facturas y consultar el historial de ventas.
 
-### Estado Facturas
-**Información acerca del estado de la aprobación de las ventas**
-El módulo de Estado Facturas permite supervisar y gestionar el proceso de aprobación de las facturas generadas dentro del sistema. Podrá revisar el estado de aprobación de las facturas, enviar las facturas por correo y volver a enviarlas para una autorización si hubo problemas externos con el SRI.
+### Estado de Facturas
+**Información acerca del estado de la aprobación de las ventas.**
+El módulo de Estado de Facturas permite supervisar y gestionar el proceso de aprobación de las facturas generadas dentro del sistema. Podrá revisar el estado de aprobación de las facturas, enviar las facturas por correo y volver a enviarlas para una autorización si hubo problemas externos con el SRI.
 
 ### Cuadre de Caja
 **Información acerca de las cuentas.**
@@ -24,14 +24,14 @@ Este módulo está diseñado para ayudarle a cuadrar la caja, registrando todas 
 
 ### Productos
 **Información acerca de los productos.**
-En el módulo de productos, puede gestionar su inventario de productos. Esto incluye agregar nuevos productos, actualizar información de productos existentes y consultar el stock disponible.
+En el módulo de productos, puede gestionar su inventario de productos. Esto incluye agregar nuevos productos, actualizar la información de productos existentes y consultar el stock disponible.
 
 ### Inventarios
 **Información acerca de los inventarios.**
 Este módulo le permite llevar un control detallado de su inventario. Puede realizar ajustes de inventario, registrar entradas y salidas, y generar informes de inventario.
 
 ### Pedido Sugerido
-**Información acerca de los pedidos sugeridos a Platiacucho.**
+**Información acerca de los pedidos sugeridos a Plasticaucho.**
 En este módulo, el sistema le sugiere pedidos basados en las necesidades de inventario y las tendencias de ventas. Esta funcionalidad le ayuda a mantener niveles óptimos de stock.
 
 ### Movimientos
@@ -51,7 +51,7 @@ En el módulo de terceros, puede gestionar la información de sus clientes, prov
 Este módulo está dedicado a la gestión de proveedores. Puede registrar nuevos proveedores, actualizar sus datos y consultar el historial de transacciones con cada proveedor.
 
 ### Personal
-**Información acerca de el personal.**
+**Información acerca del personal.**
 En el módulo de personal, puede gestionar la información de sus empleados. Esto incluye registrar nuevos empleados, actualizar información personal y roles dentro del sistema.
 
 ### Descuentos
