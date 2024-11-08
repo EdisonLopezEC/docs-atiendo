@@ -1,4 +1,4 @@
-# **Introducción a la Plataforma ATIENDO**
+# **Introducción a la Plataforma ATIENDO de Plasticaucho**
 
 ![Hello](../assets/images/bgeeasa.jpg)
 
